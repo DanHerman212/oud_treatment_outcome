@@ -1,5 +1,5 @@
 ### Individual Level Predictive Modeling for Opioid Use Disorder Treatment Outcome
-Jul 2023 - PresentJul 2023 - Present
+Jul 2023 - Present
 
 I'm currently working on a personal project, focused on substance abuse treatment. I received guidance to from Dr. Sean Luo, who is the lead investigator for the active protocol.
 
