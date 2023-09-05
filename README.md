@@ -16,15 +16,19 @@ To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This d
 # Preliminary Results from running an XGBoost Classifier
 ![SHAP Values-Top 15 for Feature Importance](images/s.png)
 
-There were 1315 patients
-910 (69%) completed treatment
+There were 1315 patients<br>
+910 (69%) completed treatment<br>
 
-Of those that completed treatment
-521 (57%) patients relapsed
-389 (43%) patients did not relapse
+Of those that completed treatment<br>
+521 (57%) patients relapsed<br>
+389 (43%) patients did not relapse<br>
 
-For the context of this project, the most important metric is to reduce false positives for treatment outcomes.
+For the context of this project, the most important metric is to reduce false positives for treatment outcomes.<br>
 
-I saw that after the 3rd iteration there was only 1 false positive in the confusion matrix.  I saw that it decreased with every iteration, which is ideal.  However the total number of positive outcomes predicted should be higher.
+![confusion matrix](images/cm.png)
 
-There were 389 potential positive outcomes, but the prediction only got 111 correct on the last iteration.  I did an 80/20 split with the training and testing data, so I expected there would be higher than 111 positive predictions.  
+I observed that after the 3rd iteration there was only 1 false positive in the confusion matrix.  False positives decreased with every iteration, however, the total number of positive outcomes predicted should be higher.<br>
+
+I will continue to analyze the model to see if there is room for improvement or if there are any accuracy issues.<br>
+
+Next steps are to build out a neural net with an interactive front end.  Should be completed within the next 30 days.<br>
