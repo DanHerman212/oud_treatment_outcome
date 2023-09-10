@@ -14,17 +14,19 @@ There is strong evidence indicating the effectiveness of opioid agonist treatmen
 To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This dataset includes data for about 1300 patients receiving treatment at 8 different centers.  We monitored medication doses, urine toxicology and self reported use, within the first 30 days of treatment.
 
 # Preliminary Results from running an XGBoost Classifier
-## Analysis and model accuracy are coming soon!  For now, please enjoy these images
+## Analysis and model accuracy are coming soon!  For now, I've included a few plots for feature importance, coming from XBoost and Shap values
 
 ![Feature Importance (GAIN)](images/fi.png)
 ## XBoost proritizes features by 'gain' and 'cover'.  More on this coming soon.
+
+# SHAP Value Analysis Coming Soon
+![SHAP VALUES](images/shap_bar.png.png)
 
 # Eliminating most false positives
 ![confusion matrix](images/cm.png)
 ## After 3 iterations of models, we were able to eliminate most false positives for positive treatment outcome
 
-# SHAP Value Analysis Coming Soon
-![SHAP VALUES](images/s.png)
+
 
 
 
