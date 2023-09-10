@@ -20,7 +20,7 @@ To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This d
 ## XBoost proritizes features by 'gain' and 'cover'.  More on this coming soon.
 
 # SHAP Value Analysis Coming Soon
-![SHAP VALUES](images/shap_bar.png.png)
+![SHAP VALUES](images/shap_bar.png)
 
 # Eliminating most false positives
 ![confusion matrix](images/cm.png)
