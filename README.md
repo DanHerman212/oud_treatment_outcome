@@ -23,7 +23,7 @@ To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This d
 ![Confusion Matrix](images/cm.png)<br>
 ### After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
 ### The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
-### High level of false negatives, missing 72% or 143 patitents who achieved positive outcome<br>
+### High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
 <br>
 
 ## XBoost proritizes features by 'gain' and 'cover'.  More on this coming soon.
