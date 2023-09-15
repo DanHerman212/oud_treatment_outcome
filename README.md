@@ -9,26 +9,37 @@ There is an Opioid Crisis in the united states, where close to 1,500 Americans a
 
 There is strong evidence indicating the effectiveness of opioid agonist treatment.  Mediations such as Methadone, Buprenorphine and Extended Release Naltrexone, can help prevent death from Fentanyl.  However, the prescription of these meds is mostly arbitrary, not backed by sound scientific evidence, mostly done for convenience, based on opinions.  Also, people who recover do so in different trajectories.  This creates a challenge and opportunity for precision medicine.  Personalized risk scores can promote patient centered care, similar to cancer treatment.
 
-![Treatment outcome and Patient Population](images/p.png)
-
 To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This dataset includes data for about 1300 patients receiving treatment at 8 different centers.  We monitored medication doses, urine toxicology and self reported use, within the first 30 days of treatment.
 
-# Preliminary results from classification models coming soon
-### Still working on model interpretation for XGBoost
-### Accuracy scores are between 20% - 30%
-### There is a relatively small sample size with 1315 patients
-### 70% of outcomes are negative (relapse)
-### 30% of outcomes are positive (prevent relapse)
+## Preliminary EDA Images
+### Self Reported Drug Use
+![sru eda](images/sru_eda.png)
+<br>
+
+### Weekly Drug Tests
+![uds eda](images/uds_eda.png)
+<br>
+
+
+## Preliminary results training 3 different machine learning models
+Still working on model interpretation for XGBoost
+Accuracy scores are between 20% - 30%
+There is a relatively small sample size with 1315 patients
+70% of outcomes are negative (relapse)
+30% of outcomes are positive (prevent relapse)
 
 ![Confusion Matrix](images/cm.png)<br>
-### After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
-### The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
-### High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
+After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
+The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
+High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
 <br>
 
-## XBoost proritizes features by 'gain' and 'cover'.  More on this coming soon.
+## Feature Importance Analysis
+Comming soon
 ![Feature Importance (GAIN)](images/fi.png)
 <br>
-## SHAP Value Analysis Coming Soon
+
+## Shapley Values Analysis 
+Comming soon
 ![SHAP VALUES](images/s.png)
 
