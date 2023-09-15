@@ -22,24 +22,27 @@ To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This d
 
 
 ## Preliminary results training 3 different machine learning models
-Still working on model interpretation for XGBoost
-Accuracy scores are between 20% - 30%
-There is a relatively small sample size with 1315 patients
-70% of outcomes are negative (relapse)
-30% of outcomes are positive (prevent relapse)
+
+First we will run a basic classification through random forrest<br>
+Then we will try to interpret results through Global Surrogate model<br>
+We will conclude with running XGBoost, a high performance ensemble learning model<br>
+There is a relatively small sample size with 1315 patients<br>
+70% of outcomes are negative (relapse)<br>
+30% of outcomes are positive (prevent relapse)<br>
 
 ![Confusion Matrix](images/cm.png)<br>
+These are preliminary results from XGBoost; the model was not tuned properly<br>
 After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
 The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
 High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
 <br>
 
 ## Feature Importance Analysis
-Comming soon
+Comming soon<br>
 ![Feature Importance (GAIN)](images/fi.png)
 <br>
 
 ## Shapley Values Analysis 
-Comming soon
+Comming soon<br>
 ![SHAP VALUES](images/s.png)
 
