@@ -15,16 +15,21 @@ To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This d
 ### Self Reported Drug Use
 ![sru eda](images/sru_eda.png)
 <br>
-
+Over a 24 week period, patients filled out surveys to report on drug use<br>
+The data was collected at inception of treatment and every 4 weeks<br>
+Specifically VISIT 0,4,8,12,16,20,24<br>
 
 ### Weekly Drug Tests
 ![uds eda](images/uds_eda.png)
 <br>
+Patients submitted a urine sample for screening every week for 24 weeks
 
-### Weekly Drug Tests
+### Medication Doses
 ![med eda](images/med_eda.png)
 <br>
-
+There is strong scientific evidence that medication will help prevent relapse from 50% - 90%<br>
+Patients recover in distinct patterns, we hope to better understand the relationship between total dose<br>
+and recovery trajectory<br>
 
 ## Preliminary results training 3 different machine learning models
 
