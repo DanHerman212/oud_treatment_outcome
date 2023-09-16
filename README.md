@@ -31,6 +31,12 @@ There is strong scientific evidence that medication will help prevent relapse fr
 Patients recover in distinct patterns, we hope to better understand the relationship between total dose
 and recovery trajectory<br>
 
+### Correlation Matrix
+![corr matrix](images/corr.png)
+<br>
+**Interestingly enough, there is a high positive correlation between positive methamphetamine tests and positive treatment outcomes**<br>
+**Positive methadone tests and medication doses are highly correlated with positive outcomes**
+
 ## Preliminary results training 3 different machine learning models
 
 First we will run a basic classification through random forrest<br>
