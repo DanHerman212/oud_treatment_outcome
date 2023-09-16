@@ -11,7 +11,7 @@ There is strong evidence indicating the effectiveness of opioid agonist treatmen
 
 To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This dataset includes data for about 1300 patients receiving treatment at 8 different centers.  We monitored medication doses, urine toxicology and self reported use, within the first 30 days of treatment.  We will try to take patient data and train a machine learning model to predict if a patient will or will not successfully complete treatment.
 
-## Preliminary EDA Images
+## Preliminary EDA Insights
 ### Self Reported Drug Use
 ![sru eda](images/sru_eda.png)
 <br>
