@@ -28,7 +28,7 @@ Patients submitted a urine sample for screening every week for 24 weeks
 ![med eda](images/med_eda.png)
 <br>
 There is strong scientific evidence that medication will help prevent relapse from 50% - 90%<br>
-Patients recover in distinct patterns, we hope to better understand the relationship between total dose<br>
+Patients recover in distinct patterns, we hope to better understand the relationship between total dose
 and recovery trajectory<br>
 
 ## Preliminary results training 3 different machine learning models
