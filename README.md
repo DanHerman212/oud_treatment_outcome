@@ -34,7 +34,7 @@ and recovery trajectory<br>
 ### Correlation Matrix
 ![corr matrix](images/corr.png)
 <br>
-**Interestingly enough, there is a high positive correlation between positive methamphetamine tests and positive treatment outcomes**<br>
+**Interestingly enough, there is a high positive correlation between positive methamphetamine tests and treatment outcomes**<br>
 **Positive methadone tests and medication doses are highly correlated with positive outcomes**
 
 ## Preliminary results training 3 different machine learning models
