@@ -46,8 +46,8 @@ There is a relatively small sample size with 1315 patients<br>
 70% of outcomes are negative (relapse)<br>
 30% of outcomes are positive (prevent relapse)<br>
 
-![Confusion Matrix](images/cm.png)<br>
-These are preliminary results from XGBoost; the model was not tuned properly<br>
+![Confusion Matrix Random Forres](images/rf_cm.png)<br>
+These are preliminary results from Random Forest with 80/20 train test split, due to very small sample size<br>
 After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
 The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
 High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
