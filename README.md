@@ -11,7 +11,7 @@ There is strong evidence indicating the effectiveness of opioid agonist treatmen
 
 To address this problem, we observed dataset NIDA-CTN-0027 from the CTN.  This dataset includes data for about 1300 patients receiving treatment at 8 different centers.  We monitored medication doses, urine toxicology and self reported use, within the first 30 days of treatment.  We will try to take patient data and train a machine learning model to predict if a patient will or will not successfully complete treatment.
 
-## Preliminary EDA Insights
+## Insights from Exploratory Data Analysis
 ### Self Reported Drug Use
 ![sru eda](images/sru_eda.png)
 <br>
@@ -34,31 +34,34 @@ and recovery trajectory<br>
 ### Correlation 
 ![corr matrix](images/corr.png)
 <br>
-**Interestingly enough, there is a high positive correlation between positive methamphetamine tests and treatment outcomes**<br>
-**Positive methadone tests and medication doses also show positive correlation but not at the same strengrh**
+There appears to be a strong relationship between methamphetamine tests and treatment outcomes.  We have resturctured our data to be more specific, to understand how these different features directly impact treatment outcome.
 
 ## Preliminary results training 3 different machine learning models
 
-First we will run a basic classification through random forrest<br>
+First we will run a basic classification model through random forrest<br>
 Then we will try to interpret results through Global Surrogate model<br>
 We will conclude with running XGBoost, a high performance ensemble learning model<br>
-There is a relatively small sample size with 1315 patients<br>
+We will interpret those results using shapley values<br>
 70% of outcomes are negative (relapse)<br>
 30% of outcomes are positive (prevent relapse)<br>
 
-![Confusion Matrix Random Forres](images/rf_cm.png)<br>
-These are preliminary results from Random Forest with 80/20 train test split, due to very small sample size<br>
-After train test split, model predicted 81% of true negative outcomes, 377 patients who relapsed<br>
-The initial set of models performed poorly, only identifying 27% (or 53 patients) with true positive outcomes<br>
-High level of false negatives, missing 72% or 142 patitents who achieved positive outcome<br>
-<br>
+![Confusion Matrix Random Forres](images/xgb_rs_cm.png)<br>
+The confusion is measured by precision and recall, listed as follows:<br>
 
-## Feature Importance Analysis
-Comming soon<br>
-![Feature Importance (GAIN)](images/fi.png)
-<br>
+**Precision** - The number of instances that are relevant, out of the total instances the model retrieved.<br>  
+
+True negatives are on the top left in yellow and true positives are on the bottom right in green.  The total between those two classes is 1,223, which represents a Precision score of 93% of 1315 patient outcomes were correctly classified. <br>
+
+**Recall** - The number of instances which the model correctly identified as relevant out of the total relevant instances.  Essentially the true positive rate. <br>
+
+To calculate recall, add true positives (326) with false positives (73), then divide true positive by total (399).  Recall is about 82%, which means we correctly predict postive patient outcomes 82% of the time.
+
 
 ## Shapley Values Analysis 
 Comming soon<br>
+<br>
+Shapley values are based on cooperative game theory.  Essentially, the Shapley value is the average expected marginal contribution of one player after all possible combinations have been considered.<br>
+
+The chart below looks at each feature as part of a coalition and the outcome of the model is viewed as a reward.  The reward get's fairly distributed amongst the features based on their contribution to the outcome.  Each dot on the axis represents a patient, where the color indicates contribution to model impact (high or low) and the direction indicates outcome (negatigve or positive)<br>
 ![SHAP VALUES](images/s.png)
 
