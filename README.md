@@ -55,7 +55,7 @@ True negatives are on the top left in yellow and true positives are on the botto
 
 **Recall** - The number of instances which the model correctly identified as relevant out of the total relevant instances.  Essentially the true positive rate. <br>
 
-To calculate recall, add true positives (326) with false positives (73), then divide true positive by total (399).  Recall is about 82%, which means we correctly predict postive patient outcomes 82% of the time.
+To calculate recall, add true positives (326) with false positives (73), then divide true positive by total (399).  Recall is about 82%, which means we correctly predict postive patient outcomes 82% of the time.<br>
 
 **F1 Score** is a weighted average of precision and recall or 2*((precision*recall)/(precision+recall)).  The F1 score is about 87%
 
