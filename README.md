@@ -42,6 +42,7 @@ First we will run a basic classification model through random forrest<br>
 Then we will try to interpret results through Global Surrogate model<br>
 We will conclude with running XGBoost, a high performance ensemble learning model<br>
 We will interpret those results using shapley values<br>
+We will train a machine learning model on 1315 patient outcomes<br>
 70% of outcomes are negative (relapse)<br>
 30% of outcomes are positive (prevent relapse)<br>
 
