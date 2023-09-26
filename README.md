@@ -47,7 +47,7 @@ We will train a machine learning model on 1315 patient outcomes<br>
 30% of outcomes are positive (prevent relapse)<br>
 
 ![Confusion Matrix Random Forres](images/xgb_rs_cm.png)<br>
-The confusion is measured by precision and recall, listed as follows:<br>
+The chart above is called a confusion matrix; the numbers are measured by two different metrics, namely recall.  There is also an F1 score, which is the weighted average of both scores combined, listed as follows:<br>
 
 **Precision** - The number of instances that are relevant, out of the total instances the model retrieved.<br>  
 
@@ -57,6 +57,7 @@ True negatives are on the top left in yellow and true positives are on the botto
 
 To calculate recall, add true positives (326) with false positives (73), then divide true positive by total (399).  Recall is about 82%, which means we correctly predict postive patient outcomes 82% of the time.
 
+**F1 Score** is a weighted average of precision and recall or 2*((precision*recall)/(precision+recall)).  The F1 score is about 87%
 
 ## Shapley Values Analysis 
 Comming soon<br>
