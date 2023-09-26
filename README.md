@@ -47,7 +47,7 @@ We will train a machine learning model on 1315 patient outcomes<br>
 30% of outcomes are positive (prevent relapse)<br>
 
 ![Confusion Matrix Random Forres](images/xgb_rs_cm.png)<br>
-The chart above is called a confusion matrix; the numbers are measured by two different metrics, namely recall.  There is also an F1 score, which is the weighted average of both scores combined, listed as follows:<br>
+The chart above is called a confusion matrix; the numbers are measured by two different metrics, namely precision and recall.  There is also an F1 score, which is the weighted average of both scores combined, listed as follows:<br>
 
 **Precision** - The number of instances that are relevant, out of the total instances the model retrieved.<br>  
 
