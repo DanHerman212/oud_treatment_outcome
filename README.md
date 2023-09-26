@@ -31,11 +31,6 @@ There is strong scientific evidence that medication will help prevent relapse fr
 Patients recover in distinct patterns, we hope to better understand the relationship between total dose
 and recovery trajectory<br>
 
-### Correlation 
-![corr matrix](images/corr.png)
-<br>
-There appears to be a strong relationship between methamphetamine tests and treatment outcomes.  We have resturctured our data to be more specific, to understand how these different features directly impact treatment outcome.
-
 ## Preliminary results training 3 different machine learning models
 
 First we will run a basic classification model through random forrest<br>
