@@ -60,5 +60,5 @@ Comming soon<br>
 Shapley values are based on cooperative game theory.  Essentially, the Shapley value is the average expected marginal contribution of one player after all possible combinations have been considered.<br>
 
 The chart below looks at each feature as part of a coalition and the outcome of the model is viewed as a reward.  The reward get's fairly distributed amongst the features based on their contribution to the outcome.  Each dot on the axis represents a patient, where the color indicates contribution to model impact (high or low) and the direction indicates outcome (negatigve or positive)<br>
-![SHAP VALUES](images/s.png)
+![SHAP VALUES](images/shap.png)
 
