@@ -1,5 +1,5 @@
 # Predicting Opioid Use Disorder (OUD) Treatment Outcome
-<font size="4">**July 2023 - September 2023**</font>
+
 ### Predictive Modeling for Opioid Use Disorder Treatment Outcome
 July 2023 - September 2023
 
