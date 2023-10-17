@@ -1,4 +1,4 @@
-### Individual Level Predictive Modeling for Opioid Use Disorder Treatment Outcome
+### Predictive Modeling for Opioid Use Disorder Treatment Outcome
 July 2023 - September 2023
 
 I'm currently working on a personal project, where the goal is to show how machine learning can improve outcomes for treatment of Opioid Use Disorder (OUD).   I received guidance from Dr. Sean Luo, who designed the protocol for the project.
