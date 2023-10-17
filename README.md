@@ -1,4 +1,4 @@
-### Predictive Modeling for Opioid Use Disorder Treatment Outcome
+## Predictive Modeling for Opioid Use Disorder Treatment Outcome
 July 2023 - September 2023
 
 ## Overview of the Opioid Crisis
