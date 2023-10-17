@@ -13,6 +13,6 @@ There is an Opioid Crisis happening right now in the US, where nearly 107,000 Am
  1) Analyze how predictions were made to identify risk signals in patients that lead to relapse.<br> 
 2) Use predictions during treatment to assess risk signals for relapse and offer intervention to improve outcomes.
 
-I used publicly available dataset [CTN00-27](https://datashare.nida.nih.gov/study/nida-ctn-0027) to capture clinical data to feed into a machine learning algorithm.  From this dataset, I captured clinical data for 1300 patients, who received treatment for 24 weeks.  We monitored their medication doses, self reported drug use and urine toxicology results to predict treatment outcomes.
+I used publicly available dataset [CTN00-27](https://datashare.nida.nih.gov/study/nida-ctn-0027) to capture clinical data to feed into a machine learning algorithm.  From this dataset, I captured clinical data for 1300 patients at 8 different centers, who received treatment for Opioid Use Disorder.
 
 
