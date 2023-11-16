@@ -1,4 +1,5 @@
-# This page is currently in the process of being updated.
+## This page was last updated in September
+### A completely revised study will be published on this page within the next 2 months
 
 ## Predictive Modeling for Opioid Use Disorder Treatment Outcome
 July 2023 - September 2023
