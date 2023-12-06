@@ -61,10 +61,3 @@ National Library of Medicine: [The Effectiveness of Medication-Based Treatment f
 
 <a id="6">[6]</a>
 National Library of Medicine: [A Literature Review Examining Primary Outcomes of Medication Treatment Studies for Opioid use Disorder: What outcome should be used to measure opioid treatment success?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377168/)
-# This page is in the process of being updated.
-
-<font size='5'> If you're interested in looking at the code, you can access the notebooks at [Jupyter Notebooks](https://github.com/DanHerman212/oud_treatment_outcome/tree/main/notebooks) and the [data directory](https://github.com/DanHerman212/oud_treatment_outcome/tree/main/data/clean_data) 
-
-These notebooks need a few editorial cycles, which will be completed within the next 2 months.
-
-</font>
