@@ -1,1 +1,0 @@
-This is a sample file to store the data dictionary
