@@ -61,13 +61,14 @@ There is no cure for Opioid Use Disorder, but there is opportunity for remission
 </font>
 
 ## Study Endpoints
-<font size='4'>
+<font size='4'>I'm currently working on publishing the study, I expect it will be completed soon and apologize for the delay.
+
 
 | Topic | Description|Link | Release Date |
 | --- | --- | --- | --- |
-| Data Wrangling  | Creating a High Quality Dataset for Analysis| Link | 2023/09/01 |
-| Data Analysis   | Measuring Treatment Outcomes, according to FDA Guidance |Link | 2023/05/01 |
-| Machine Learning | Predicting Treatment Otucomes, Extracting Inference to Identify Risk Signals and Improve Outcomes| Link | 2023/05/01 |
+| Data Wrangling  | Creating a High Quality Dataset for Analysis| Comming soon... | 2023/09/01 |
+| Data Analysis   | Measuring Treatment Outcomes, according to FDA Guidance |Comming soon... | 2023/05/01 |
+| Machine Learning | Predicting Treatment Otucomes, Extracting Inference to Identify Risk Signals and Improve Outcomes| Comming soon... | 2023/05/01 |
 
 </font>
 
