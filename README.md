@@ -1,5 +1,5 @@
 # Data Science Project 
-<font size='5'>The intention for this project is to show how data science could create positive impact, addressing a serious problem.  For my first project, I chose to study the Opioid Crisis.</font>
+<font size='5'>The intention for this project is to show how data science could create positive impact, addressing a serious problem.  For my first project, I chose to study the Opioid Crisis analyzing clinical data for people who are receiving treatment for Opioid Use Disorder (OUD).</font>
 
 # Table of Contents
 
@@ -17,7 +17,7 @@
 <font size='5'>
 The project will involve three phases:<br>
 
-1) **_Data Wrangling_**: Create a high quality dataset to analyze 500 clinical data points for a population of approximately 1,300 patients
+1) **_Data Wrangling_**: Create a high quality dataset to analyze 500 clinical data points for a population of approximately 1,300 patients, receiving treatment for OUD
 
 2) **_Analysis_**: Analyze Clinical Data in accordance with the Food and Drug Administration Guidelines<sup>[1](#1)</sup> for effective treatment outcomes
 
@@ -27,7 +27,7 @@ The project will involve three phases:<br>
 <br>
 
 # The Data <font size='5'> 
-I approached Dr. Sean Luo, who is an addiction psychiatrist and subject matter expert in machine learning.  Dr. Luo advised me to use a dataset that is part of the Clinical Trial Network study CTN0027 <sup>[1](#1)</sup>.  This dataset is a subset of a larger active study that has received federal funding. <sup>[2](#2)</sup> 
+I approached Dr. Sean Luo, who is an addiction psychiatrist and subject matter expert in machine learning.  Dr. Luo advised me to use a dataset that is part of the Clinical Trial Network study CTN0027 <sup>[2](#2)</sup>.  This dataset is a subset of a larger active study that has received federal funding. <sup>[3](#3)</sup> 
 </font>
 
 <br>
@@ -39,7 +39,7 @@ I approached Dr. Sean Luo, who is an addiction psychiatrist and subject matter e
 
 <font size='5'>
 
-The US is currently experiencing an Opioid Crisis.  In 2021 approximately 107,000 people died from fatal drug overdose.  The number of deaths from drug overdose in 2021 is 6 times greater than the total in 1999<sup>[3](#3)</sup>. The rise in overdose death is directly related to consumption of Fentanyl, a synthetic opioid that is 100x stronger than morphine that's made it's way into the illicit drug supply<sup>[4](#4)</sup>. People who develop problmematic use of opioids, unknowingly get exposed to fentanyl and die tragically.<br>
+The US is currently experiencing an Opioid Crisis.  In 2021 approximately 107,000 people died from fatal drug overdose.  The number of deaths from drug overdose in 2021 is 6 times greater than the total in 1999<sup>[4](#4)</sup>. The rise in overdose death is directly related to consumption of Fentanyl, a synthetic opioid that is 100x stronger than morphine that's made it's way into the illicit drug supply<sup>[5](#5)</sup>. People who develop problmematic use of opioids, unknowingly get exposed to fentanyl and die tragically.<br>
 
 </font>
 <br>
