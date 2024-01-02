@@ -1,5 +1,5 @@
-# Data Science Project (currently under construction)
-<font size='5'>I wanted to show how data science could create positive impact, addressing a serious problem.  For my first project, I chose to study the Opioid Crisis.</font>
+# Data Science Project 
+<font size='5'>The intention for this project is to show how data science could create positive impact, addressing a serious problem.  For my first project, I chose to study the Opioid Crisis.</font>
 
 # Table of Contents
 
@@ -11,53 +11,92 @@
 [Opioid Dependence](#opioid-dependence) <br>
 [Study Endpoints](#study-endpoints) <br>
 [References](#references) <br>
+</font>
 
 # Project Overview
-<font size='5'>I will create a dataset from scratch that will observe a patient population with approximately 1300 patients receving treatment for 24 weeks, from 8 treatment centers.  They will be receiving treatment through medication.  I will evaluate the efficacy of treatment, using FDA guidelines<sup>[1](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/opioid-use-disorder-endpoints-demonstrating-effectiveness-drugs-treatment-guidance-industry)</sup>.  I will use machine learning to make predictions about treatment outcomes.  <br>
+<font size='5'>
+The project will involve three phases:<br>
+
+1) **_Data Wrangling_**: Create a high quality dataset to analyze 500 clinical data points for a population of approximately 1,300 patients
+
+2) **_Analysis_**: Analyze Clinical Data in accordance with the Food and Drug Administration Guidelines<sup>[1](#1)</sup> for effective treatment outcomes
+
+3) **_Inference_**: Build a machine learning model to extract inference from the data and identify key risk signals to improve treatment outcomes
+
+</font>
 <br>
-Machine learning will provide meaningful insight in helping us 
-1) Draw statistical inference, identifying risk signals for relapse in patients individually 
-2) Make dynamic predictions during treatment, to improve patient outcomes, also addressing patient risk individually</font>
 
-# The Data
-<font size='5'> I approached Dr. Sean Luo, who is an addiction psychiatrist and subject matter expert in machine learning.  Dr. Luo advised me to work on a dataset that is part of the Clinical Trial Network study CTN0027 <sup>[2](https://datashare.nida.nih.gov/study/nida-ctn-0027)</sup>.  This dataset is a subset of a larger active study that has received federal funding<sup>[3](https://www.cuimc.columbia.edu/news/opioid-disorder-treatment-first-three-weeks-forecast-success)</sup> </font>
+# The Data <font size='5'> 
+I approached Dr. Sean Luo, who is an addiction psychiatrist and subject matter expert in machine learning.  Dr. Luo advised me to use a dataset that is part of the Clinical Trial Network study CTN0027 <sup>[1](#1)</sup>.  This dataset is a subset of a larger active study that has received federal funding. <sup>[2](#2)</sup> 
+</font>
 
-
+<br>
 
 # The Opioid Crisis
 <p>
     <img src="images/oud.png" alt="Opioid Crisis in America" width="700" height="360" style="float:right">
 </p>
 
-<font size='5'>The US is currently experiencing an Opioid Crisis.  In 2021 107,000 people died from fatal drug overdose.  The number of deaths from drug overdose in 2021 is 6 times greater than the total in 1999<sup>[2](#2)</sup>. The rise in overdose death is directly related to consumption of Fentanyl, a synthetic opioid that is 100x stronger than morphine that's made it's way into the illicit drug supply<sup>[3](#3)</sup>. People who develop problmematic use of opioids, unknowingly get exposed to fentanyl and die tragically.<br>
+<font size='5'>
+
+The US is currently experiencing an Opioid Crisis.  In 2021 approximately 107,000 people died from fatal drug overdose.  The number of deaths from drug overdose in 2021 is 6 times greater than the total in 1999<sup>[3](#3)</sup>. The rise in overdose death is directly related to consumption of Fentanyl, a synthetic opioid that is 100x stronger than morphine that's made it's way into the illicit drug supply<sup>[4](#4)</sup>. People who develop problmematic use of opioids, unknowingly get exposed to fentanyl and die tragically.<br>
+
 </font>
+<br>
 
 # Opioid Dependence
-<font size='5'> People who develop Opioid Use Disorder (OUD) experience biological changes to specific brain systems, which make treatment and recovery very difficult<sup>[4](#4)</sup>.  In early phases of abuse, over stimulation of the brains reward system creates compulsion to take opiods repeatidly.  Once dependence develops, other brain systems that regulate wakefulness, breathing, blood pressure, and general alertness, become hyperactive, causing painful withdrawal syndrome.  The distress from withdrawal can only be remediated by taking opioids, which overides rational thinking, leading to high risk behavior, resulting in serious adverse events. There is no cure for Opioid Use Disorder, but there is opportunity for remission, if people can reduce patterns of problematic consumption, they will avoid death/suffering and restore quality of life to reasonable levels.</font>
+<font size='5'> 
 
-# Study Endpoints
-| Topic | Link | Description | Release Date |
+Opioid tolerance, dependence<sup>[6](#6)</sup>, and addiction are all manifestations of brain changes resulting from chronic opioid abuse. The opioid abuser’s struggle for recovery is in great part a struggle to overcome the effects of these changes. <br>
+</font>
+
+# MOUD - Medication Treament for OUD 
+<font size='5'> 
+
+Methadone, buprenorphine, and extended-release naltrexone are the three medications <sup>[7](#7)</sup> currently approved by the U.S. Food and Drug Administration (FDA) for treating opioid use disorder (OUD). All three medications reduce opioid cravings and help to sever the ties between opioid use and established situational or emotional triggers.
+
+There is no cure for Opioid Use Disorder, but there is opportunity for remission, if people can reduce patterns of problematic consumption, they will avoid death/suffering and restore quality of life to reasonable levels. <br>
+<br>
+
+</font>
+
+## Study Endpoints
+<font size='4'>
+
+| Topic | Description|Link | Release Date |
 | --- | --- | --- | --- |
-| Statistical Analysis | https://huggingface.co/axiong/PMC_LLaMA_13B | Measuring Study Outcomes | 2023/09/01 |
-| Machine Learning | https://huggingface.co/chaoyi-wu/MedLLaMA_13B | Interpret ML Models to Understand Predictors | 2023/05/01 |
+| Data Wrangling  | Creating a High Quality Dataset for Analysis| Link | 2023/09/01 |
+| Data Analysis   | Measuring Treatment Outcomes, according to FDA Guidance |Link | 2023/05/01 |
+| Machine Learning | Predicting Treatment Otucomes, Extracting Inference to Identify Risk Signals and Improve Outcomes| Link | 2023/05/01 |
+
+</font>
+
+## References 
+<font size ='4'>
+
+<a id='1'>[1]</a>
+US Food and Drug Administration [Opioid Use Disorder: Endpoints for Demonstrating Effectiveness of Drugs for Treatment](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/opioid-use-disorder-endpoints-demonstrating-effectiveness-drugs-treatment-guidance-industry)
 
 
-___
-## References
-<a id="1">[1]</a>
-The Common Wealth Fund: [Mental Health Conditions and Substance Use: Comparing U.S. Needs and Treatment Capacity with Those in Other High-Income Countries](https://www.commonwealthfund.org/sites/default/files/2020-05/Tikkanen_mental_hlt_intl_comparison_db.pdf)<br> 
+<a id='2'>[2]</a>
+National Institute on Drug Abuse Data Share Website: [NIDA-CTN-0027 - Starting Treatment with Agonist Replacement Therapies (START)](https://datashare.nida.nih.gov/study/nida-ctn-0027)<br> 
 
-<a id="2">[2]</a>
-Centers for Disease Control: [Drug Overdose Deaths in the United States, 2001–2021](https://www.cdc.gov/nchs/products/databriefs/db457.htm)
+<a id='3'>[3]</a>
+Columbia University Irving Medical Center [Opioid Disorder Treatment: First Three Weeks Forecast Success](https://www.cuimc.columbia.edu/news/opioid-disorder-treatment-first-three-weeks-forecast-success)
 
-<a id="3">[3]</a>
-Centers for Disease Control: [Deaths involving illicitly manufactured fentanyl are on the rise](https://www.cdc.gov/opioids/basics/fentanyl.html#:~:text=Rates%20of%20overdose%20deaths%20involving,times%20the%20rate%20in%202013.)
-
-<a id="4">[4]</a>
-National Library of Medicine: [The Neurobiology of Opioid Dependence: Implications for Treatment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054/)
+<a id='4'>[4]</a>
+Centers for Disease Control: [Understanding the Opioid Overdose Epidemic](https://www.cdc.gov/opioids/basics/epidemic.html)<br> 
 
 <a id="5">[5]</a>
-National Library of Medicine: [The Effectiveness of Medication-Based Treatment for Opioid Use Disorder](https://www.ncbi.nlm.nih.gov/books/NBK541393/)
+Centers for Disease Control: [Deaths involving illicitly manufactured fentanyl are on the rise](https://www.cdc.gov/opioids/basics/fentanyl.html#:~:text=Rates%20of%20overdose%20deaths%20involving,times%20the%20rate%20in%202013.)
 
 <a id="6">[6]</a>
+National Library of Medicine: [The Neurobiology of Opioid Dependence: Implications for Treatment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851054/)
+
+<a id="7">[7]</a>
+National Library of Medicine: [The Effectiveness of Medication-Based Treatment for Opioid Use Disorder](https://www.ncbi.nlm.nih.gov/books/NBK541393/)
+
+<a id="8">[8]</a>
 National Library of Medicine: [A Literature Review Examining Primary Outcomes of Medication Treatment Studies for Opioid use Disorder: What outcome should be used to measure opioid treatment success?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377168/)
+
+</font>
