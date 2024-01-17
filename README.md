@@ -66,7 +66,7 @@ There is no cure for Opioid Use Disorder, but there is opportunity for remission
 
 | Topic | Description|Link | Release Date |
 | --- | --- | --- | --- |
-| Data Wrangling  | Creating a High Quality Dataset for Analysis| Comming soon... | 2023/09/01 |
+| Data Wrangling  | Creating a High Quality Dataset for Analysis| [Jupyter Notebook](https://github.com/DanHerman212/oud_treatment_outcome/blob/main/notebooks/1_data_cleaning.ipynb) | 2023/09/01 |
 | Data Analysis   | Measuring Treatment Outcomes, according to FDA Guidance |Comming soon... | 2023/05/01 |
 | Machine Learning | Predicting Treatment Otucomes, Extracting Inference to Identify Risk Signals and Improve Outcomes| Comming soon... | 2023/05/01 |
 
