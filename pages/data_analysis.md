@@ -1,0 +1,1 @@
+The recommended primary efficacy endpoint is the proportion of responders
